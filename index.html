@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/indexcss.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <title>Semáforo</title>
+</head>
+
+<body>
+
+    <!-- cabeçalho -->
+    <header>
+        <a1 class="title">Neuro</a1>
+        <a2>LIGHT</a2>
+    </header>
+
+    <!-- incicio do corpo -->
+    <main>
+        <div class="player1" id="divSemaforo">
+            <canvas id="state1">
+            </canvas>
+        </div>
+        <div class="player2" id="divSemaforo">
+            <canvas id="state2">
+            </canvas>
+        </div>
+    </main>
+    <form class="buttons_players">
+        <button class="btn_p1" id="buttonPlayer" type="submit" formaction="./indexp1.html">
+            <p class="textButtonPlayer">JOGADOR 1</p>
+        </button>
+        <button class="btn_p2" id="buttonPlayer" type="submit" formaction="./indexp2.html">
+            <p class="textButtonPlayer">JOGADOR 2</p>
+        </button>
+    </form>
+
+
+    <!-- apresentacao -->
+    <div class="apresentacao">
+
+
+        <div class="insideApresentacao">
+            <div class="profiles">
+
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="./img/participante2.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Andre D. Negro</h5>
+                                <p class="card-text">Estudante de Engenharia de Computação, 19 anos e boas habilidades
+                                    de
+                                    arquitetar projetos.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="./img/participante1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Eduardo M. Resnauer</h5>
+                                <p class="card-text">Estudante de Engenharia Mecânica, 18 anos e possui grandes
+                                    habilidades
+                                    em lidar com pessoas.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Christopher G. M. da Cruz</h5>
+                                <p class="card-text">Estudante de Engenharia de Computação, 18 anos e possui habilidades
+                                    em
+                                    comunicação e proatvidade.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="./img/participante3.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Maurício dos Anjos Souza</h5>
+                                <p class="card-text">Estudante de Engenharia de Computação, 19 anos e possui habilidades
+                                    em
+                                    organização e comunicação.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Vicente Simon Feitoza</h5>
+                                <p class="card-text">Estudante de Engenharia Mecânica, 18 anos e possui habilidades em
+                                    organização.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="textProfile">
+                <h1>EQUIPE NEUROLIGHT</h1>
+                <p>
+                    Nossa equipe é formada por 5 engenheiros desempregados que visam aprimorar o sistema de transito
+                    brasileiro
+                </p>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="./js/javascript.js"></script>
+
+
+</html>
