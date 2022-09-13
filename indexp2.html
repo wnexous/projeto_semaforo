@@ -11,7 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
-    <title>Usuario 2</title>
+    <title>player2</title>
 </head>
 
 <body>
@@ -22,10 +22,18 @@
     <div class="player">
         <p style="font-size: 200%;">JOGADOR 2</p>
     </div>
+    <div class="player" id="clicks">
+        <p style="font-size: 100%;"></p>
+    </div>
+    <div class="player" id="myclicks">
+        <p style="font-size: 100%;"></p>
+    </div>
+    <div class="player" id="delay">
+        <p style="font-size: 100%;"></p>
+    </div>
     <main>
         <form class="centerdiv">
-            <button class="btn_countter" type="submit">
-            </button>
+            <a class="btn_countter" onmousedown="mouseState('send')" onmouseup="add_request(document.title, mouseState('pick')) "></a>
         </form>
         <p class="descricao">Clique no botão para simular a passagem de veículo.</p>
 
@@ -38,8 +46,18 @@
             </p>
         </button>
     </form>
+    <form class="voltar">
+        <a type="submit" onclick="delete_all_post(document.title)" on class="backButton">
+            <p style="
+                margin-top: 5%;
+                text-align: center;">
+                RESET
+            </p>
+        </a>
+    </form>
 
 </body>
-<script src="./js/javascript.js"></script>
+<script src="./js/player.js"></script>
+
 
 </html>

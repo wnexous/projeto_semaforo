@@ -1,0 +1,35 @@
+{
+  "state": [
+    {
+      "player": "player2",
+      "time": 180,
+      "id": 404
+    },
+    {
+      "player": "player2",
+      "time": 170,
+      "id": 405
+    },
+    {
+      "player": "player2",
+      "time": 185,
+      "id": 420
+    }
+  ],
+  "color": {
+    "p1": "red",
+    "p2": "rgb(9, 255, 0)"
+  },
+  "data": {
+    "p1": {
+      "time": 5468.4,
+      "media": 6.214797136038186,
+      "veiculos": 419
+    },
+    "p2": {
+      "time": 9540.3,
+      "media": 10.639344262295081,
+      "veiculos": 427
+    }
+  }
+}

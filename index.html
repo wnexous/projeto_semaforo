@@ -18,8 +18,8 @@
 
     <!-- cabeçalho -->
     <header>
-        <a1 class="title">Neuro</a1>
-        <a2>LIGHT</a2>
+        <a1 class="title" id="easteregg">Neuro</a1>
+        <a2 id="easteregg1">LIGHT</a2>
     </header>
 
     <!-- incicio do corpo -->
@@ -36,14 +36,23 @@
     <form class="buttons_players">
         <button class="btn_p1" id="buttonPlayer" type="submit" formaction="./indexp1.html">
             <p class="textButtonPlayer">JOGADOR 1</p>
+            <p class="informationTitle">
+                INFORMAÇÕES:</p>
+            <p id="datap1">DATA</p>
         </button>
         <button class="btn_p2" id="buttonPlayer" type="submit" formaction="./indexp2.html">
             <p class="textButtonPlayer">JOGADOR 2</p>
+            <p class="informationTitle">
+                INFORMAÇÕES:</p>
+            <p id="datap2">DATA</p>
         </button>
     </form>
 
 
     <!-- apresentacao -->
+    <div id="rainbowline">
+        &nbsp
+    </div>
     <div class="apresentacao">
 
 
@@ -57,7 +66,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Andre D. Negro</h5>
                                 <p class="card-text">Estudante de Engenharia de Computação, 19 anos e boas habilidades
-                                    de
+                                    em
                                     arquitetar projetos.</p>
                             </div>
                         </div>
@@ -69,13 +78,13 @@
                                 <h5 class="card-title">Eduardo M. Resnauer</h5>
                                 <p class="card-text">Estudante de Engenharia Mecânica, 18 anos e possui grandes
                                     habilidades
-                                    em lidar com pessoas.</p>
+                                    em liderar pessoas.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card h-100">
-                            <img src="..." class="card-img-top" alt="...">
+                            <img src="./img/participante5.jpeg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Christopher G. M. da Cruz</h5>
                                 <p class="card-text">Estudante de Engenharia de Computação, 18 anos e possui habilidades
@@ -97,7 +106,7 @@
                     </div>
                     <div class="col">
                         <div class="card h-100">
-                            <img src="..." class="card-img-top" alt="...">
+                            <img src="./img/participante4.jpeg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Vicente Simon Feitoza</h5>
                                 <p class="card-text">Estudante de Engenharia Mecânica, 18 anos e possui habilidades em
@@ -109,10 +118,23 @@
             </div>
 
             <div class="textProfile">
-                <h1>EQUIPE NEUROLIGHT</h1>
+                <h1 id="neurolighttitle">EQUIPE NEUROLIGHT</h1>
                 <p>
-                    Nossa equipe é formada por 5 engenheiros desempregados que visam aprimorar o sistema de transito
-                    brasileiro
+                    Nossa equipe é formada por 5 engenheiros desempregados que visam aprimorar o sistema de trânsito
+                    brasileiro.
+                </p>
+                <p>
+                    Neurolight é uma empresa focada em aprimorar o fluxo de veículos em grandes cidades que sofrem com
+                    engarrafamentos.
+                </p>
+                <p>
+                    Nosso projeto traz a mais moderna tecnologia que permite maior flexibilidade na temporização de
+                    semáforos podendo reduzir drasticamente o trânsito reduzindo a temporização em vias com pouco fluxo
+                    e priozirando vias movimentadas.
+                </p>
+                <p>
+                    Em nosso site adaptamos nosso reconhecimento neural para que os usuários testem a nossa mais recente
+                    tecnologia.
                 </p>
             </div>
         </div>
